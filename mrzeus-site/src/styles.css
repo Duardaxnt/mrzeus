@@ -17,56 +17,59 @@ background-color: #000;
 h1 {
 font-size: 22px;
 color: #fff;
- align-self: flex-end;
+align-self: flex-end;
 margin-bottom: 2px;
 }
-
 
 h2 {
 color: #fff;
 }
 
-
 .cards-container {
-margin-top: 120px;
-padding: 40px;
-display: flex;
-justify-content: center;
-gap: 30px;
-flex-wrap: wrap;
+    margin-top: 120px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
-
 
 .card {
-background: #111;
-padding: 20px;
-width: 260px;
-border-radius: 10px;
-text-align: center;
-border: 1px solid #333;
+    background: #111;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #5b00ee;
 }
 
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
 .card-img {
-width: 80px;
-margin: 15px 0;
+    width: 50px;
+    height: auto;
 }
-
 
 button {
-background: #fff;
-color: #000;
-padding: 10px 18px;
-border: none;
-border-radius: 6px;
-cursor: pointer;
-font-weight: bold;
+    background: #fff;
+    color: #000;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
 }
-
 
 button:hover {
-opacity: 0.8;
+    opacity: 0.8;
 }
+
 
 
 .footer {

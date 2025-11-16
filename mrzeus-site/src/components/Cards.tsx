@@ -4,12 +4,14 @@ export default function Cards() {
 
 
         <div className="card">
-            <h2>Shopee</h2>
-            <img
-                src="https://seeklogo.com/images/S/shopee-logo-68120CB6BD-seeklogo.com.png"
-                alt="Shopee"
-                className="card-img"
-            />
+            <div className="card-top">
+                <img
+                    src="shopee.png"
+                    alt="Shopee"
+                    className="card-img"
+                />
+                <h2>Shopee</h2>
+            </div>
             <button onClick={() => window.open("LINK_SHOPEE", "_blank")}>
                 Comprar
             </button>
@@ -17,28 +19,32 @@ export default function Cards() {
 
 
         <div className="card">
-            <h2>YouTube</h2>
-            <img
-                src="https://seeklogo.com/images/Y/youtube-icon-logo-CF8E72F331-seeklogo.com.png"
-                alt="YouTube"
-                className="card-img"
-            />
-            <button onClick={() => window.open("LINK_YOUTUBE", "_blank")}>
-                Comprar
+            <div className="card-top">
+                <img
+                    src="youtube.png"
+                    alt="Youtube"
+                    className="card-img"
+                />
+                <h2>YouTube</h2>
+            </div>
+            <button onClick={() => window.open("LINK_SHOPEE", "_blank")}>
+                Seguir
             </button>
         </div>
 
 
         <div className="card">
-            <h2>Amazon</h2>
+            <div className="card-top">
                 <img
-                    src="https://seeklogo.com/images/A/amazon-logo-8E3F929A05-seeklogo.com.png"
+                    src="amazon.png"
                     alt="Amazon"
                     className="card-img"
                 />
-                <button onClick={() => window.open("LINK_AMAZON", "_blank")}>
-                    Comprar
-                </button>
+                <h2>Amazon</h2>
+            </div>
+            <button onClick={() => window.open("LINK_SHOPEE", "_blank")}>
+                Comprar
+            </button>
         </div>
 </main>
 );
