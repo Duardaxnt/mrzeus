@@ -5,7 +5,7 @@ export default function Footer() {
 
 
             <div className="socials">
-                <a href="https://instagram.com" target="_blank">Instagram</a> |
+                <a href="https://www.instagram.com/zeus_mr/" target="_blank">Instagram</a> |
                 <a href="https://youtube.com" target="_blank"> YouTube</a>
             </div>
 
